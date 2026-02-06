@@ -3,7 +3,7 @@
  URL: https://leetcode.com/problems/two-sum/
  Difficulty: Easy
  Topics: Array, Hash Table
- Date: 2026-02-06T06:27:18.616Z
+ Date: 2026-02-06T06:27:42.486Z
 """
 
         :rtype: List[int]
@@ -22,3 +22,6 @@
         """
     def twoSum(self, nums, target):
 class Solution(object):
+                    right=left+1
+        return [-1,-1]
+        
