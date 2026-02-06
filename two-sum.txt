@@ -2,19 +2,25 @@
  * Problem: Two Sum
  * URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
- * Date: 2026-02-06T05:09:34.531Z
+ * Date: 2026-02-06T05:13:30.416Z
  */
 
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        left=0
-        right=left+1
-        while right<len(nums):
-            if nums[left]+nums[right]==target:
                 return [left,right]
             else:
+            if nums[left]+nums[right]==target:
+        while right<len(nums):
+        right=left+1
+        left=0
+        :rtype: List[int]
+        """
+        :type target: int
+        :type nums: List[int]
+        """
+    def twoSum(self, nums, target):
+class Solution(object):
+                right+=1
+                if right==len(nums):
+                    left+=1
+                    right=left+1
+        return [-1,-1]
+        
