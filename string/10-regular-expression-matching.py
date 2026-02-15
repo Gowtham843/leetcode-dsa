@@ -3,7 +3,7 @@
  URL: https://leetcode.com/problems/regular-expression-matching/
  Difficulty: Hard
  Topics: String, Dynamic Programming, Recursion
- Date: 2026-02-15T18:08:20.576Z
+ Date: 2026-02-15T18:09:05.451Z
 """
 
         dp = [[False] * (n + 1) for _ in range(m + 1)]
@@ -25,5 +25,5 @@
         
         return dp[m][n]
     def isMatch(self, s, p):
-class Solution(object):
         
+class Solution(object):
