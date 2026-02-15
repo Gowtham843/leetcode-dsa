@@ -3,7 +3,7 @@
  URL: https://leetcode.com/problems/regular-expression-matching/
  Difficulty: Hard
  Topics: String, Dynamic Programming, Recursion
- Date: 2026-02-15T18:09:05.451Z
+ Date: 2026-02-15T18:09:27.234Z
 """
 
         dp = [[False] * (n + 1) for _ in range(m + 1)]
